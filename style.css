@@ -8,11 +8,12 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background-color: rgba(206, 27, 27, 0.82);
+  background-color: rgba(206, 27, 27, 0.623);
 }
 h1 {
   text-align: center;
   text-decoration: underline;
+  font-size: 60px;
 
 }
 h2 {
@@ -20,4 +21,8 @@ h2 {
 }
 section { 
   position:relative; left: +50px; 
+}
+.Bild { 
+  position:relative; left: 700px;
+  position: relative; top: -145px;
 }
