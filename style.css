@@ -4,8 +4,13 @@
   box-sizing: content-box;
 }
 
+
 body {
   margin: 0;
-  background-color: lightgray;
   font-family: sans-serif;
+  background-color: rgba(206, 27, 27, 0.82);
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
 }
