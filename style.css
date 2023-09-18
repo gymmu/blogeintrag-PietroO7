@@ -15,6 +15,7 @@ h1 {
   text-decoration: underline;
   font-size: 60px;
   letter-spacing: 0.5rem;
+  
 }
 
 h2 {
@@ -23,11 +24,16 @@ h2 {
 
 section { 
     position: relative; right: -20px;
-    
+    line-height: 40px;
 }
 
 .Bild { 
   position:relative; left: 700px;
-  position: relative; top: -155px;
+  position: relative; top: -250px;
   border: 3px solid black
+ 
+}
+
+img {
+  width: 500px;
 }
