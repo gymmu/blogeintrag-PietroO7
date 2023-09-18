@@ -34,6 +34,9 @@ section {
  
 }
 
+.Allgemein {
+  position: relative; top: -100px
+}
 img {
   width: 500px;
 }
