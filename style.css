@@ -27,19 +27,27 @@ h2 {
 section { 
     position: relative; right: -20px;
     line-height: 40px;
+    font-size: 20px;
+    line-height: 75px;
 }
 
 .Bild { 
   position:relative; left: 630px;
-  position: relative; top: -240px;
+  position: relative; top: -350px;
   border: 4px solid black
  
 }
 
 .Allgemein {
-  position: relative; top: -220px
+  position: relative; top: -300px
 }
 
 img {
   width: 600px;
+}
+
+.Zwischentitel {
+text-align: center;
+font-size: 55px;
+text-decoration: underline;
 }
