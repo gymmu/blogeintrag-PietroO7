@@ -4,7 +4,6 @@
   box-sizing: content-box;
 }
 
-
 body {
   margin: 0;
   font-family: sans-serif;
@@ -18,7 +17,12 @@ h1 {
   text-align: center;
   text-decoration: underline;
   font-size: 100px;
-  letter-spacing: 0.2rem;
+}
+.spread {
+  transition: all 0.5s ease-in-out;
+}
+.spread:hover{
+  letter-spacing: 0.6rem;
 }
 
 h2 {
@@ -48,27 +52,22 @@ section {
 .Allgemein {
   position: relative; top: -300px
 }
-
 img {
   width: 600px;
 }
-
 .Zwischentitel {
 text-align: center;
 font-size: 55px;
 text-decoration: underline;
 }
-
 a:hover {
  font-size: 25px;
 }
-
 .Link {
   position: relative; left: 632px;
   position: relative; bottom: 1040px;
   color: red;
 }
-
 p {
   position: relative; bottom: 1100px;
   position: relative; left: 632px;
