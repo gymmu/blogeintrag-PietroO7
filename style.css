@@ -35,13 +35,13 @@ section {
 
 .Bild { 
   position:relative; left: 630px;
-  position: relative; top: -350px;
+  position: relative; top: -280px;
   border: 3px solid white
  
 }
 .Zwei {
   position: relative; top: -1070px;
-  position:relative; left: 640px;
+  position:relative; left: 630px;
   border: 3px solid white
 }
 
@@ -57,4 +57,14 @@ img {
 text-align: center;
 font-size: 55px;
 text-decoration: underline;
+}
+
+a:hover {
+ font-size: 25px;
+}
+
+.Link {
+  position: relative; left: 632px;
+  position: relative; bottom: 1050px;
+  color: red;
 }
