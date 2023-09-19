@@ -43,7 +43,14 @@ section {
 .Zwei {
   position: relative; top: -1070px;
   position:relative; left: 630px;
-  border: 3px solid white
+  border: 3px solid white;
+}
+
+.MeinBild {
+position: relative; bottom: 1190px;
+position: relative; left: 780px;
+width: 450px;
+border: 3px solid white;
 }
 .Allgemein {
   position: relative; top: -300px
@@ -69,7 +76,7 @@ p {
   position: relative; left: 632px;
 }
 .Zwischentitel2 {
-  position: relative; bottom: 540px;
+  position: relative; bottom: 560px;
   text-align: center;
   font-size: 55px;
   text-decoration: underline color-mix(in srgb, red , white )
