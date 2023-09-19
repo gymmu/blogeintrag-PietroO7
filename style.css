@@ -8,8 +8,10 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background-color: rgba(247, 2, 2, 0.607);
+  background-color: rgba(0, 0, 0, 0.813);
   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  color: whitesmoke;
+  
 }
 
 h1 {
