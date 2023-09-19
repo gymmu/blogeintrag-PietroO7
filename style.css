@@ -65,6 +65,11 @@ a:hover {
 
 .Link {
   position: relative; left: 632px;
-  position: relative; bottom: 1050px;
+  position: relative; bottom: 1040px;
   color: red;
+}
+
+p {
+  position: relative; bottom: 1100px;
+  position: relative; left: 632px;
 }
