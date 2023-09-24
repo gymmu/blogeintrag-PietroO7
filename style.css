@@ -59,14 +59,36 @@ border: 3px solid white;
 border-radius: 10px;
 }
 .SWM500 {
-  position: relative; right: 100px;
+  position: relative; right: 450px;
   position: relative; bottom: 550px;
   border: solid 3px white;
   border-radius: 10px;
 }
+.Enduro {
+  position: relative; left: 650px;
+  position: relative; bottom: 1008px;
+  border: solid 3px white;
+  border-radius: 10px;
+}
+h5 {
+  position: relative; left: 1070px;
+  position: relative; bottom: 1050px;
+  font-size:  15px;
+  animation: scale-anim 1.5s both ease-in-out infinite alternate;
+  color: red;
+
+}
 h4 {
-position: relative; bottom: 600px;
-text-align: center;
+position: relative; bottom: 1000px;
+position: relative; left: 400px;
+animation: scale-anim 1.5s both ease-in-out infinite alternate;
+color: red;
+}
+
+
+@keyframes scale-anim {
+  from {transform: scale(1)}
+  to {transform: scale(1.5)}
 }
 
 .Allgemein {
