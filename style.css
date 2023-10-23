@@ -3,9 +3,120 @@
 *::after {
   box-sizing: content-box;
 }
-
 body {
-  margin: 0;
-  background-color: lightgray;
   font-family: sans-serif;
+  background-color: rgba(0, 0, 0, 0.813);
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  color: whitesmoke;  
+}
+
+h1 {color: black;
+  text-align: center;
+  text-decoration: underline color-mix(in srgb, red ,blue);
+  font-size: 100px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2000px-Flag_of_Italy.svg.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 75px;
+  border: 3px solid white;
+}
+.spread {
+  transition: all 1.5s ease-in-out;
+}
+.spread:hover{
+  letter-spacing: 0.4rem;
+  rotate: 360deg;
+}
+
+h2 {
+  position: relative; left: +50px;
+  font-size: 45px;
+}
+section { 
+    position: relative; right: -20px;
+    line-height: 40px;
+    font-size: 20px;
+    line-height: 75px;
+}
+.Bild { 
+  position:relative; left: 630px;
+  position: relative; top: -280px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+.Zwei {
+  position: relative; top: -1070px;
+  position:relative; left: 630px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.MeinBild {
+position: relative; bottom: 1190px;
+position: relative; left: 780px;
+width: 450px;
+border: 3px solid white;
+border-radius: 10px;
+}
+.SWM500 {
+  position: relative; right: 450px;
+  position: relative; bottom: 550px;
+  border: solid 3px white;
+  border-radius: 10px;
+}
+.Enduro {
+  position: relative; left: 650px;
+  position: relative; bottom: 1008px;
+  border: solid 3px white;
+  border-radius: 10px;
+}
+h5 {
+  position: relative; left: 1070px;
+  position: relative; bottom: 1050px;
+  font-size:  15px;
+  animation: scale-anim 1.5s both ease-in-out infinite alternate;
+  color: red;
+
+}
+h4 {
+position: relative; bottom: 1000px;
+position: relative; left: 400px;
+animation: scale-anim 1.5s both ease-in-out infinite alternate;
+color: red;
+}
+
+
+@keyframes scale-anim {
+  from {transform: scale(1)}
+  to {transform: scale(1.5)}
+}
+
+.Allgemein {
+  position: relative; top: -300px
+}
+img {
+  width: 600px;
+}
+.Zwischentitel {
+text-align: center;
+font-size: 55px;
+text-decoration: underline color-mix(in srgb, red , blue )
+}
+a:hover {
+ font-size: 20px;
+}
+.Link {
+  position: relative; left: 632px;
+  position: relative; bottom: 1040px;
+  color: red;
+}
+p {
+  position: relative; bottom: 1100px;
+  position: relative; left: 632px;
+}
+.Zwischentitel2 {
+  position: relative; bottom: 560px;
+  text-align: center;
+  font-size: 55px;
+  text-decoration: underline color-mix(in srgb, red , blue)
 }
